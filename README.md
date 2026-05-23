@@ -4,8 +4,8 @@
 
 转换后会生成可直接复制到 SF 富文本编辑器源码模式的 `.txt` 文件。
 
-![工具截图](<img width="940" height="760" alt="image" src="https://github.com/user-attachments/assets/4365890a-0c27-4957-9add-11cc9541a36c" />
-)
+<img width="940" height="760" alt="image" src="https://github.com/user-attachments/assets/c1d0fcc9-3678-4f7b-8203-9e0ca98c06c9" />
+
 
 ## 功能
 
