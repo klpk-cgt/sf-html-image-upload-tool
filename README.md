@@ -1,10 +1,11 @@
-# SF HTML 图片上传转换工具
+<img width="940" height="760" alt="image" src="https://github.com/user-attachments/assets/80344486-ffc3-4522-9af5-adf87200846b" /># SF HTML 图片上传转换工具
 
 一个面向 Windows 的本地小工具，用于把 Word/网页导出的 `.htm/.html` 文件中的本地图片批量上传到 SF 系统，并把 `<img src="">` 自动替换为 SF 返回的图片 URL。
 
 转换后会生成可直接复制到 SF 富文本编辑器源码模式的 `.txt` 文件。
 
-![工具截图](docs/screenshot.png)
+![工具截图](<img width="940" height="760" alt="image" src="https://github.com/user-attachments/assets/4365890a-0c27-4957-9add-11cc9541a36c" />
+)
 
 ## 功能
 
