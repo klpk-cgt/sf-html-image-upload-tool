@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+tkinterdnd2
+Pillow
+pyinstaller
+

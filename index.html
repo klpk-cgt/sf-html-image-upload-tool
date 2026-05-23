@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SF HTML 图片上传转换工具</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; margin: 0; color: #1f2937; background: #f7f9fc; }
+    main { max-width: 980px; margin: 0 auto; padding: 48px 20px; }
+    h1 { margin: 0 0 12px; font-size: 34px; }
+    p { line-height: 1.7; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+    a.button { background: #2563eb; color: white; text-decoration: none; padding: 12px 18px; border-radius: 8px; font-weight: 600; }
+    a.secondary { background: #e5edff; color: #1d4ed8; }
+    img { max-width: 100%; border: 1px solid #d9e2ef; border-radius: 8px; background: white; box-shadow: 0 10px 30px rgba(15, 23, 42, .08); }
+    ul { line-height: 1.9; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SF HTML 图片上传转换工具</h1>
+    <p>批量识别 Word/网页导出的 HTML 和本地图片文件夹，上传图片到 SF，并生成可直接复制到源码模式的 TXT 内容。</p>
+    <div class="actions">
+      <a class="button" href="downloads/SF_HTML转换工具_Windows版.zip">下载 Windows 版</a>
+      <a class="button secondary" href="README.md">查看使用说明</a>
+    </div>
+    <img src="docs/screenshot.png" alt="SF HTML 图片上传转换工具截图">
+    <h2>主要功能</h2>
+    <ul>
+      <li>支持添加 HTML 文件、选择 HTML 文件夹、拖拽文件或文件夹。</li>
+      <li>自动识别同名 .files 图片目录，支持批量转换。</li>
+      <li>生成 TXT 内容，方便直接复制到 SF 富文本源码模式。</li>
+      <li>预演检查不上传，正式转换才调用 SF 上传接口。</li>
+    </ul>
+  </main>
+</body>
+</html>
